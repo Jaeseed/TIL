@@ -83,4 +83,4 @@ def create(request):
 
 
 
-create까지 복습 완료
+create까지 복습 완료.
