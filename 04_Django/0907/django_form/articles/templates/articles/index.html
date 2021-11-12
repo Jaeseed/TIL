@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h2>Articles</h2>
+<a href="{% url 'articles:create' %}" class="text-decoration-none btn btn-outline-primary">NEW</a>
+<hr>
+
+{% for article in articles %}
+  <div>
+    <h2>{{ article.pk }}.</h2>
+    <h2>제목: {{ article.title }}</h2>
+    <a href="{% url 'articles:detail' article.pk %}" class="text-decoration-none">DETAIL</a>
+    <hr>
+  </div>
+{% empty %}
+  <h2>저장된 글이 없어요!!</h2>
+
+
+{% endfor %}
+
+{% endblock content %}
