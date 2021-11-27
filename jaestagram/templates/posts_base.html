@@ -1,0 +1,83 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'posts/css/posts.css' %}">
+  <script src="https://kit.fontawesome.com/74d5c3dc9a.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> 
+  <title>Document</title>
+  <style>
+    nav {
+      height: 54px;
+      width: 1100px;
+      padding: 0 20px;
+      margin: 0 auto;
+    }
+    nav div {
+      height: 100%;
+    }
+
+    a {
+      color: black;
+    }
+  </style>
+</head>
+<body style="background-color: rgba(var(--b3f,250,250,250),1);">
+  <div class="top-box">
+    <nav class="flex-container" style="justify-content:space-between; align-items: center;">
+      <div style="vertical-align: center;">
+        <a href="{% url 'posts:main' %}" style="vertical-align: center;">
+          <img src="{% static 'posts/images/jaestgram.jpg' %}" alt="jaestgram" style="width: auto; height: 80%; padding: 5px 50px 0;">
+        </a>
+      </div>
+      <div style="height: 30px;">
+        <input type="text" name="peas" id="peas" placeholder="검색">
+        <label for="peas"><i class="fas fa-search"></i></label>
+      </div>
+      <div class="flex-container" style="justify-content: space-between; padding-right: 50px; width: 225px; height: 20px;">
+        <a href="{% url 'posts:main' %}" style="color:black;">
+          <i class="fas fa-home fa-lg"></i>
+        </a>
+        <a href="{% url 'posts:create'%}">
+          <i class="fas fa-pen fa-lg"></i>
+        </a>
+        <a href="">
+          <i class="far fa-paper-plane fa-lg"></i>
+        </a>
+        <a href="">
+          <i class="far fa-compass fa-lg"></i>
+        </a>
+        <a href="">
+          <i class="far fa-heart fa-lg"></i>
+        </a>
+        {% if user.profile_photo %}
+        <li class="nav-item dropdown" style="width: 20px; height: 20px;">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="height: 100%; width: 100%;">
+            <img src="{{user.profile_photo.url}}" alt="{{user.profile_photo}}" style="border-radius: 70%; height: 20px; width: 20px;">
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="{% url 'posts:personal' user.pk%}">프로필</a></li>
+            <li><a class="dropdown-item" href="#">저장됨</a></li>
+            <li><a class="dropdown-item" href="{% url 'users:update' %}">설정</a></li>
+            <li><a class="dropdown-item" href="#">계정 전환</a></li>
+            <li><a class="dropdown-item" href="{% url 'users:logout' %}">로그아웃</a></li>
+          </ul>
+        </li>
+        {% else %}
+        <img src="{% static 'posts/images/profile.png' %}" alt="profile.png" style="border-radius: 70%;">
+        {% endif %}
+      </div>
+    </nav>
+  </div>
+  {% block content %}
+    
+  {% endblock content %}
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>

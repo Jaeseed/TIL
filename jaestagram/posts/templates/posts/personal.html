@@ -1,0 +1,13 @@
+{% extends 'posts_base.html' %}
+{% block content %}
+{% if posts %}
+<div style="padding: 50px 350px; 0 350px;">
+  {% for post in posts %}
+  <img src="{{post.image.url}}" alt="{{post.image}}" style="width: 400px; height: 400px;">
+
+  {% endfor %}  
+</div>
+{% else %}
+<h3>사진을 올려주세요.</h3>
+{% endif %}
+{% endblock content %}

@@ -1,0 +1,19 @@
+.top-box {
+  border-bottom: solid 1px rgb(219, 219, 219);
+  background-color: white;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.middle {
+  vertical-align: middle;
+}
+
+.post-box {
+  width: 600px;
+  border: 1px solid gainsboro;
+  background-color: white;
+}

@@ -1,0 +1,16 @@
+{% extends 'posts_base.html' %}
+{% load static %}
+{% block content %}
+{% for post in posts %}
+  <div style="padding: 50px 350px 0 350px;;">
+    <div class="post-box">
+      <div class = "d-flex" style="height: 60px; border-bottom: 1px solid gainsboro;">
+        <img src="{{user.profile_photo.url}}" alt="{{user.profile_photo}}" style="height:40px; width: 40px; border-radius: 70%; margin: 10px;">
+        <p style="margin: auto 0; font-weight: bold;">{{user.username}}</p>
+      </div>
+      <img src="{{post.image.url}}" alt="{{post.image}}" style="width: 600px; height: 600px;">
+    </div>
+  </div>
+{% endfor %}
+
+{% endblock content %}
