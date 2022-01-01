@@ -30,7 +30,6 @@ def find_min_cnt():
     for r,c in bottom_list:
         cnt = 0
         now_r = r+1
-        flag = 0
         while now_r < R:
             if visited[now_r][c] == 1:
                 cnt = min_cnt
