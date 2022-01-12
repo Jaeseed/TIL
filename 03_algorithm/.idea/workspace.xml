@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1982b75-3237-49c0-a313-35305d858689" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/2021/Dec/1214/BJ_11401.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Dec/1214/BJ_11401.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Dec/1224/BJ_2751.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Dec/1224/BJ_2751.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/Dec/1230/BJ_2933.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021/Dec/1230/BJ_2933.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS/Jira &amp; JQL.md" beforeDir="false" afterPath="$PROJECT_DIR$/../CS/Jira &amp; JQL.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Java_basicANDapplication.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/Java_basicANDapplication.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="21xn9ENAjNSzqYEbP89it6ksrJ7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -37,20 +40,20 @@
       <recent name="C:\Users\Jaesung\Desktop\ssafy_6\TIL\03_algorithm\2021\Dec\1207" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.BJ_10815_">
-    <configuration name="BJ_10815_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.BJ_10870">
+    <configuration name="BJ_1086" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="03_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Jaesung\Desktop\ssafy_6\TIL\03_algorithm\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022/Jan" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022/Jan/0111" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Jan/BJ_10815_.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Jan/0111/BJ_1086.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -59,19 +62,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BJ_11401" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="BJ_10870" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="03_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Jaesung\Desktop\ssafy_6\TIL\03_algorithm\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021/Dec/1214" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022/Jan/0112" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021/Dec/1214/BJ_11401.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Jan/0112/BJ_10870.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,19 +83,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BJ_1920" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="BJ_14500" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="03_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Jaesung\Desktop\ssafy_6\TIL\03_algorithm\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021/Dec/1219" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022/Jan/0110" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021/Dec/1219/BJ_1920.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Jan/0110/BJ_14500.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,19 +104,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BJ_19941" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="BJ_2839" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="03_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Jaesung\Desktop\ssafy_6\TIL\03_algorithm\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021/Dec/1217" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022/Jan/0111" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021/Dec/1217/BJ_19941.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Jan/0111/BJ_2839.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,19 +125,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BJ_4991" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="BJ_9625" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="03_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Jaesung\Desktop\ssafy_6\TIL\03_algorithm\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021/Dec/1214" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022/Jan/0112" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021/Dec/1214/BJ_4991.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Jan/0112/BJ_9625.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.BJ_10815_" />
-        <item itemvalue="Python.BJ_1920" />
-        <item itemvalue="Python.BJ_4991" />
-        <item itemvalue="Python.BJ_19941" />
-        <item itemvalue="Python.BJ_11401" />
+        <item itemvalue="Python.BJ_10870" />
+        <item itemvalue="Python.BJ_9625" />
+        <item itemvalue="Python.BJ_2839" />
+        <item itemvalue="Python.BJ_1086" />
+        <item itemvalue="Python.BJ_14500" />
       </list>
     </recent_temporary>
   </component>
@@ -207,14 +210,29 @@
           <line>5</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2022/Jan/0110/BJ_3190.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2022/Jan/0110/BJ_14499.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2022/Jan/0112/BJ_10870.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="MAP" language="Python" />
-        <watch expression="visited" language="Python" />
-        <watch expression="adj" language="Python" />
-        <watch expression="dust_tong" language="Python" />
+        <watch expression="order" language="Python" />
+        <watch expression="tong" language="Python" />
+        <watch expression="qu" language="Python" />
       </configuration>
     </watches-manager>
   </component>

@@ -116,3 +116,14 @@ public static void main(String[] args) {
 // 상수 문자열 객체를 이용하는 것(2번)이 일반 String 객체를 이용하는 방법(3번)보다 효율적
 ```
 
+
+
+##### ++ --
+
+- 변수에만 쓸 수 있다. 값에는 못 씀
+
+
+
+##### 퀴즈
+
+![image-20220110001330238](C:\Users\multicampus\AppData\Roaming\Typora\typora-user-images\image-20220110001330238.png)

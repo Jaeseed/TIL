@@ -15,7 +15,12 @@
 
 #### Agile
 
-- 알아보기
+- Scrum
+
+  - 협업이 강조되는 방식
+  - 애자일 스크럼의 과정![image-20220112095251712](C:\Users\multicampus\AppData\Roaming\Typora\typora-user-images\image-20220112095251712.png)
+
+  - story points
 
 
 
