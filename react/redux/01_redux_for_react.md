@@ -1,2 +1,0 @@
-# Redux for React
-
