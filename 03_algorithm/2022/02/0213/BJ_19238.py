@@ -14,15 +14,13 @@ def find_client(r, c):
     now_fuel = 0
     while qu:
         r, c, fuel = qu.popleft()
-        if fuel == F:
-            return -1, -1, -1, -1
         if now_fuel != fuel:
             mr, mc, real_t = 20,20,0
             if tong:
                 for t_ in range(len(tong)):
                     if mr > tong[t_][0]:
                         mr, mc, real_t = tong[t_][0], tong[t_][1], tong[t_][2]
-                    elif mr == tong[t_][0] and mc > tong[t_][0]:
+                    elif mr == tong[t_][0] and mc > tong[t_][1]:
                         mr, mc, real_t = tong[t_][0], tong[t_][1], tong[t_][2]
                 for e in range(len(people_list[mr][mc])):
                     if people_list[mr][mc][e] == real_t:
@@ -30,6 +28,8 @@ def find_client(r, c):
                         break
                 return mr, mc, fuel, real_t
             now_fuel += 1
+        if fuel == F:
+            return -1, -1, -1, -1
         for i in range(4):
             nr = r + dr[i]
             nc = c + dc[i]
@@ -88,14 +88,22 @@ while completed_cnt < M:
                 break
     if target == 0:
         sr, sc, used_fuel, target = find_client(sr, sc)
+        F -= used_fuel
     if sr == -1:
         F = -1
         break
-    F -= used_fuel
-    sr, sc, used_fuel = find_goal(sr, sc, target)
+    if people_list[sr][sc]:
+        for p in range(len(people_list[sr][sc])):
+            if people_list[sr][sc][p] == -target:
+                people_list[sr][sc][p] = 0
+                target = 0
+                used_fuel = 0
+                break
+    if target:
+        sr, sc, used_fuel = find_goal(sr, sc, target)
+        F += used_fuel
     if sr == -1:
         F = -1
         break
-    F += used_fuel
     completed_cnt += 1
 print(F)
