@@ -1,25 +1,39 @@
-def dfs(now):
+def str_to_idx(cha):
+    return ord(cha) - ord('A')
+
+
+def idx_to_chr(idx):
+    return chr(idx + ord('A'))
+
+
+def traversal(now):
     global preorder, inorder, postorder
     if now == -1:
         return
-    preorder += chr(now + 65)
-    dfs(left[now])
-    inorder += chr(now + 65)
-    dfs(right[now])
-    postorder += chr(now + 65)
+    preorder += idx_to_chr(now)
+    traversal(left[now])
+    inorder += idx_to_chr(now)
+    traversal(right[now])
+    postorder += idx_to_chr(now)
+    return
 
 
 N = int(input())
-left = [-1] * N
-right = [-1] * N
-preorder, inorder, postorder = '', '', ''
+left = [-1] * 26
+right = [-1] * 26
 for n in range(N):
-    me, l, r = input().split()
+    p, l, r = input().split()
+    parent = str_to_idx(p)
     if l != '.':
-        left[ord(me) - 65] = ord(l) - 65
+        le = str_to_idx(l)
+        left[parent] = le
     if r != '.':
-        right[ord(me) - 65] = ord(r) - 65
-dfs(0)
+        ri = str_to_idx(r)
+        right[parent] = ri
+preorder = ''
+inorder = ''
+postorder = ''
+traversal(0)
 print(preorder)
 print(inorder)
 print(postorder)
